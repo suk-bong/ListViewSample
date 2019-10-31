@@ -21,6 +21,7 @@ public class ListViewAdapter extends BaseAdapter {
 
     //리스트뷰 어뎁터 생성자
     public ListViewAdapter(){
+
     }
 
     //어뎁터에 사용되는 데이터의 개수를 리턴 => 필수 메소드
@@ -32,7 +33,6 @@ public class ListViewAdapter extends BaseAdapter {
     //포지션에 위치한 데이터를 화면에 출력하는데 사용될 뷰를 리턴 => 필수 메소드
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        final int pos = position;
         final Context context = parent.getContext();
 
         if (convertView == null){

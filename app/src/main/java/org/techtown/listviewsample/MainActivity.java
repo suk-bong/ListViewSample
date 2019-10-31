@@ -13,14 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView listview;
-        ListViewAdapter adapter;
-
         //어뎁터 생성
-        adapter = new ListViewAdapter();
+        ListViewAdapter adapter = new ListViewAdapter();
 
         //리스트 뷰 참조 및 어뎁터 닫기
-        listview = (ListView)findViewById(R.id.listview1);
+        ListView listview = (ListView)findViewById(R.id.listview1);
         listview.setAdapter(adapter);
 
         //아이템 추가
