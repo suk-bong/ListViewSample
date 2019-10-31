@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         listview.setAdapter(adapter);
 
         //아이템 추가
-        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.minji), "민지","010-0000-0000");
-        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.sukhwan), "석환","010-1111-1111");
-        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.si), "시바","010-2222-2222");
-        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.cat), "고양이","010-3333-3333");
-        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.po), "포메라니안","010-4444-4444");
+        adapter.ListViewAdapter(ContextCompat.getDrawable(this,R.drawable.minji), "민지","010-0000-0000");
+        adapter.ListViewAdapter(ContextCompat.getDrawable(this,R.drawable.sukhwan), "석환","010-1111-1111");
+        adapter.ListViewAdapter(ContextCompat.getDrawable(this,R.drawable.si), "시바","010-2222-2222");
+        adapter.ListViewAdapter(ContextCompat.getDrawable(this,R.drawable.cat), "고양이","010-3333-3333");
+        adapter.ListViewAdapter(ContextCompat.getDrawable(this,R.drawable.po), "포메라니안","010-4444-4444");
 
 
 
